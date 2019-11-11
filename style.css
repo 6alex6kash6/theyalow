@@ -1,0 +1,56 @@
+.head-section{
+    background-image: url(Layer.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 71px;
+    
+}
+
+.header .logoBack{
+    margin-right: 20px;
+}
+
+.header .h1wrap{
+    display: flex;
+}
+
+
+
+.header .h1wrap .imgwrap{
+    width: 79px;
+    height: 79px;
+}
+
+
+
+.header .nav .toolbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  position: relative;
+  align-items: center;
+  padding-left: 0;
+  width: 453px;
+  height: 41px;
+  background-color: #f5c506;
+}
+
+.header .nav .toolbar a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(155, 125, 8, 255);
+    font-size: 17.04912pt;
+}
+
+.header .nav .toolbar li{
+    list-style-position:inside;
+    border-right: 1px solid black;
+    
+    padding-right: 20px;
+}
